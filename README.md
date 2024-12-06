@@ -13,6 +13,10 @@ return {
   {
     dir = "fbcarpinato/rfc.nvim",
     name = "rfc",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-telescope/telescope.nvim",
+    },
     config = function()
       require("rfc").setup({})
     end,
