@@ -26,14 +26,8 @@ return {
 
 ## Usage
 
-Query rfc's
-
-```vim
-:RFC [vim regexp]
-```
-
 Example
 
 ```vim
-:RFC http
+:RFC
 ```
